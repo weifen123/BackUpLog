@@ -1,6 +1,10 @@
-备份日期：2019-11-05	
+
 备份磁带：DHS536L6
-数据日期：201908
+格式化磁带：mkltfs --device=/dev/nst1 --tape-serial="DHS536" --volume-name="DHS536" -f
+挂载磁带：ltfs /b -o devname=/dev/nst1
+备份日期：2019-11-13	
+
+数据月份：201908
 pooling单：20190828-001_Novaseq
 项目：MAJK18110901_17_18_9	879G
 	
