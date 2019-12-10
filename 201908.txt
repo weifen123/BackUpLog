@@ -31,3 +31,34 @@ pooling单：20190918-001_Novaseq
 共计：2.2T
 
 ######
+备份磁带：DHS537L6
+格式化磁带：mkltfs --device=/dev/nst0 --tape-serial="DHS537" --volume-name="DHS537" -f
+挂载磁带：ltfs /a -o devname=/dev/nst0
+
+备份日期：2019-12-10
+数据月份：201909
+pooling单：20190930-001_Novaseq
+	MAJK18110901_22_3	168G
+	MAJK18110901_22_48_01	677G
+	MAJK18110901_22_48_01_05_07	696G
+	MAJK18110901_22_48_02	683G
+共计：2.2T
+
+######
+备份磁带：DHS538L6
+格式化磁带：mkltfs --device=/dev/nst1 --tape-serial="DHS538" --volume-name="DHS538" -f
+挂载磁带：ltfs /b -o devname=/dev/nst1
+
+备份日期：2019-12-10
+数据月份：201909
+pooling单：20190930-001_Novaseq
+	MAJK18110901_22_48_03	854G	
+	MAJK18110901_22_48_04	603G
+	MAJK18110901_22_48_05	272G
+	MAJK18110901_22_48_05_2	350G
+	MAJK18110901_22_48_05_HFDNA190927A805-42	89G
+共计：2.2T
+
+######
+
+
